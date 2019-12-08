@@ -30,4 +30,8 @@ public class Phone {
             System.out.println("It cannot be done without phone being unocked");
         }
     }
+
+    public void emergencyMode(){
+        this.phoneState = new EmergencyMode();
+    }
 }

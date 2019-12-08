@@ -7,5 +7,7 @@ public class Main {
         iphone20SUPERMAX.powerOn();
         iphone20SUPERMAX.unlock("1234");
         iphone20SUPERMAX.openEmailApp();
+
+        iphone20SUPERMAX.emergencyMode();
     }
 }
